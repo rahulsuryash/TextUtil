@@ -14,7 +14,7 @@ const App = () => {
   
   const [mode, setmode] = useState('light');
   let toggleMode=()=>{
-    if(mode==='dark')
+    if(mode==='light')
     {
       setmode('light')
       document.body.style.backgroundColor='white'
